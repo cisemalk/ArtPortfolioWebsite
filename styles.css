@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Major+Mono+Display&family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Syne:wght@800&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(232, 231, 232);
+    background-color: rgb(242, 222, 182);
 }
 
 li, a, button {
@@ -32,7 +33,7 @@ header{
 }
 
 header, .nav_links, .nav_links li, a{
-    background-color: rgb(187, 235, 75);
+    background-color: rgb(255, 147, 14);
 }
 
 .nav_links{
@@ -48,10 +49,9 @@ header, .nav_links, .nav_links li, a{
 }
 
 .nav_links li a:hover{
-    color: rgb(255, 67, 114);
+    color: rgb(12, 9, 225);
     font-size: 17px;
 }
-/* test sfdlsfdsfdkdfs*/
 
 i{
     background-color: blueviolet;
@@ -73,6 +73,28 @@ button:hover, button:hover i{
     background-color: rgb(32, 32, 32);
     color: aliceblue;
 }
+.first_card{
+    box-sizing: border-box;
+    border-radius: 60px;
+    margin: 100px 10px 50px 10px;
+    padding: 10px 30px 400px 30px;
+    background-color: rgb(183, 170, 255);
+}
+p{
+    padding-right: 200px;
+    padding-top: 30px;
+    background-color: rgb(183, 170, 255);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 70px;
+}
 
+h1{
+    background-color:rgb(183, 170, 255);
+    margin-left: 10px;
+    padding-right: 1000px;
+}
 
 
